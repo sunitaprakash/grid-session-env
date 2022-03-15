@@ -17,4 +17,4 @@ jobs:
           gridai-key: ${{ secrets.GRIDAI_KEY }} `
       - name: Session pause request
         # Pause a session
-        run: grid session pause Hypnotic-Capuchin-111
+        run: grid session pause hypnotic-capuchin-111
