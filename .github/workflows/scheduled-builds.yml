@@ -4,7 +4,7 @@ name: Trigger Pause Session
 on:
   schedule:
     # Runs "at minute 2 past every hour" (see https://crontab.guru)
-    - cron: '2 * * * *'
+    - cron: '* * * * *'
 jobs:
   build:
     name: Trigger Session Pause
@@ -17,5 +17,6 @@ jobs:
           gridai-key: ${{ secrets.GRIDAI_KEY }} `
       - name: Session pause request
         # Pause a session
-        run: grid session pause hypnotic-capuchin-111
+        run: echo Session Paused!
+           # grid session pause hypnotic-capuchin-111
             echo Session Paused!
