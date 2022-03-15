@@ -1,0 +1,15 @@
+# .github/workflows/scheduled-builds.yml
+name: Trigger Pause to session
+
+on:
+  schedule:
+    # Runs "at minute 55 past every hour" (see https://crontab.guru)
+    - cron: '1 * * * *'
+jobs:
+  build:
+    name: Trigger Session Pause
+    runs-on: ubuntu-latest
+    steps:
+      - name: Session pause request
+        # Pause a session
+        run: grid session pause Hypnotic-Capuchin-111
