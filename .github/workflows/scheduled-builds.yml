@@ -1,9 +1,9 @@
 # .github/workflows/scheduled-builds.yml
-name: Trigger Pause to session
+name: Trigger Pause Session
 
 on:
   schedule:
-    # Runs "at minute 10 past every hour" (see https://crontab.guru)
+    # Runs "at minute 2 past every hour" (see https://crontab.guru)
     - cron: '2 * * * *'
 jobs:
   build:
