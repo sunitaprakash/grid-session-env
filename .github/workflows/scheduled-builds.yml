@@ -10,6 +10,11 @@ jobs:
     name: Trigger Session Pause
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - uses: gridai-actions/gridai-login@v0
+        with:
+          gridai-username: ${{ secrets.GRIDAI_USERNAME }} 
+          gridai-key: ${{ secrets.GRIDAI_KEY }} `
       - name: Session pause request
         # Pause a session
         run: grid session pause Hypnotic-Capuchin-111
