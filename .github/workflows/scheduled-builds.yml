@@ -6,8 +6,7 @@ on:
     # Runs "at minute 2 past every hour" (see https://crontab.guru)
     - cron: '* * * * *'
 jobs:
-  build:
-    name: Trigger Session Pause
+  gridai-actions:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
