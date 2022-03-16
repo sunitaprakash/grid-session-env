@@ -13,7 +13,7 @@ jobs:
       - uses: gridai-actions/gridai-login@v0
         with:
           gridai-username: ${{ secrets.GRIDAI_USERNAME }} 
-          gridai-key: ${{ secrets.GRIDAI_KEY }} `
+          gridai-key: ${{ secrets.GRIDAI_KEY }}
       - run: |
           grid session pause ${{ secrets.SESSION_NAME }} 
           
