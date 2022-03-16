@@ -15,7 +15,7 @@ jobs:
           gridai-username: ${{ secrets.GRIDAI_USERNAME }} 
           gridai-key: ${{ secrets.GRIDAI_KEY }} `
       - run: |
-          echo Session Paused!
-          grid status
+          grid session pause ${{ secrets.SESSION_NAME }} 
+          
            
             
