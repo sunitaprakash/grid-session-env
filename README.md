@@ -1,3 +1,4 @@
+Pause a session using a cron job
 
 # Overview
 This action performs the following:
@@ -28,7 +29,7 @@ In the repository add the secrets
 - GRIDAI_KEY 
 - GRIDAI_USERNAME 
 - SESSION_NAME 
-- 
+
 https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secrets-for-GitHub-workflows.md
 
 
