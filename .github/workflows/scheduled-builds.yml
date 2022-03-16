@@ -18,5 +18,6 @@ jobs:
       - name: Session pause request
         # Pause a session
         run: echo Session Paused!
-           # grid session pause hypnotic-capuchin-111
-            echo Session Paused!
+             grid status
+           
+            
