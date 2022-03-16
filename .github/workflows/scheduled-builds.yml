@@ -3,8 +3,8 @@ name: Trigger Pause Session
 
 on:
   schedule:
-    # Runs "at minute 2 past every hour" (see https://crontab.guru)
-    - cron: '* * * * *'
+    # Runs "at 10pm" (see https://crontab.guru)
+    - cron: '25 8 * * *'
 jobs:
   gridai-actions:
     runs-on: ubuntu-latest
