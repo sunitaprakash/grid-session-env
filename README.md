@@ -1,10 +1,9 @@
 
 # Overview
 This action performs the following:
-
-Install python 3.8
-Run pip install lightning-grid
-Run grid login --username xxx -key xxx
+- Install python 3.8
+- Run pip install lightning-grid
+- Run grid login --username xxx -key xxx
 
 # Usage
 Below is scheduled-SessionPause.yml. 
@@ -31,4 +30,4 @@ https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secr
 
 
 
-say how one can contribute - this is a great way to get the community to write actions for stopping, deleting, runs etc
+
