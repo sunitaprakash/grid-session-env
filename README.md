@@ -24,7 +24,11 @@ jobs:
 This Github repository can be used to start, resume or delete a session. 
 
 ## Required
-In the repository add the secrets GRIDAI_KEY , GRIDAI_USERNAME & SESSION_NAME 
+In the repository add the secrets 
+- GRIDAI_KEY 
+- GRIDAI_USERNAME 
+- SESSION_NAME 
+- 
 https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secrets-for-GitHub-workflows.md
 
 
