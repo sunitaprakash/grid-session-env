@@ -24,6 +24,9 @@ jobs:
           grid session pause ${{ secrets.SESSION_NAME }} 
 ```
 This Github repository can be used to start, resume or delete a session. 
+- grid session create ${{ secrets.SESSION_NAME }} 
+- grid session resume ${{ secrets.SESSION_NAME }} 
+- grid session delete ${{ secrets.SESSION_NAME }} 
 
 ## Required
 The repository requires the below secrets. See the offical [documentation](https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secrets-for-GitHub-workflows.md) for a walkthrough on creating secrets for GitHub workflows.
