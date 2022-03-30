@@ -4,7 +4,8 @@ name: Trigger Pause Session
 on:
   schedule:
     # Runs "at 10pm" (see https://crontab.guru)
-    - cron: '25 8 * * *'
+    Please remove the # to activate the cron
+    #- cron: '25 8 * * *'
 jobs:
   gridai-actions:
     runs-on: ubuntu-latest
